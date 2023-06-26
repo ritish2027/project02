@@ -1,0 +1,65 @@
+body{
+  height: 100vh;
+    background-image: url(.//pr\ 2\ bgc\ img.png);
+  background-size: cover;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+                  url(".//pr\ 2\ bgc\ img.png");
+  
+}
+.container li{
+    display: inline-block;
+    
+    
+    
+}
+.list-item{
+    display: inline-block;
+    font-size: xx-large;
+    font-family:Red ;
+    font-weight: bold;
+    margin: 5px 50px; 
+    color:#F4BE2C ;
+    
+}
+.list{
+    position: absolute;
+    top: 10px;
+    left: 220px;
+    
+}
+.button-small{
+    position: absolute;
+    right: 50px;
+    top: 20px;
+    font-size: 35px;
+    background: red;
+    border-radius: 10px;
+    padding: 5px 20px;
+}
+.hero-heading{
+    font-size: 150px;
+     font-weight: bold;
+    color: #F4BE2C;
+
+}
+.button-large{
+    position: absolute;
+    right: 800px;
+    font-size: 30px;
+    background: red;
+    border-radius: 10px;
+
+}
+.bottom{
+    position: absolute;
+    right: 30px;
+}
+.list-item:hover{
+background-color: aqua;
+}
+.button-large:hover{
+    background-color: aquamarine;
+}
+.button-small:hover{
+    background-color: aquamarine;
+}
